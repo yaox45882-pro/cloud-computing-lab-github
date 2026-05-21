@@ -2,18 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cloud Computing Lab </title>
+    <title>Cloud Computing Lab</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding-top: 50px; }
-        .status { color: green; font-weight: bold; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 60px 20px;
+            margin: 0;
+            background: linear-gradient(to right, #74ebd5, #ACB6E5);
+            color: #222;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        h1 {
+            color: #1f3c88;
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #333;
+            font-weight: 500;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .status {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            color: #ffffff;
+            background-color: #28a745;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .cloud-card {
+            margin-top: 25px;
+            padding: 20px;
+            background-color: #f4f7ff;
+            border-radius: 15px;
+        }
+
+        img {
+            margin-top: 20px;
+            width: 130px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 15px;
+            color: #666;
+        }
     </style>
 </head>
+
 <body>
-    <h1>Cloud-Native Deployment Success!</h1>
-    <p>This site was deployed using <b>GitHub Actions</b>.</p>
-    <div class="status">● Site Status: Live</div>
-    <hr>
-    <p>Student Name: Yao Xuan</p>
-    <p>Current Cloud Provider: GitHub (Microsoft Azure Infrastructure)</p>
+    <div class="container">
+        <h1>Cloud-Native Deployment Success!</h1>
+        <h2>Welcome to My Cloud Computing Lab Website</h2>
+
+        <p>This website was automatically deployed using <b>GitHub Actions</b>.</p>
+
+        <div class="status">● Site Status: Live</div>
+
+        <br>
+
+        <img src="https://github.githubassets.com/images/modules/site/features/actions-icon-actions.svg" alt="GitHub Actions Logo">
+
+        <div class="cloud-card">
+            <p><b>Student Name:</b> Yao Xuan</p>
+            <p><b>Cloud Platform:</b> GitHub Pages</p>
+            <p><b>Automation Tool:</b> GitHub Actions</p>
+            <p><b>Deployment Model:</b> Platform as a Service (PaaS)</p>
+        </div>
+
+        <p class="footer">
+            This page demonstrates continuous deployment, cloud hosting, and multimedia integration.
+        </p>
+    </div>
 </body>
 </html>
